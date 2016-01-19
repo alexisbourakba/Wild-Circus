@@ -14,32 +14,30 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </header>
-    <section>
-      <article>
-        <h2>Eye Of Tiger by Felinedra</h2>
-        <p>felinedra et ses tigre</p>
-      </article>
-      <article>
-        <h2>The Clown by Petrovic</h2>
-        <p>Russian performance world</p>
-      </article>
-      <article>
-        <h2>The Clown by Petrovic</h2>
-        <p>Russian performance world</p>
-      </article>
-      <article>
-        <h2>The Clown by Petrovic</h2>
-        <p>Russian performance world</p>
-      </article>
-    </section>
-    <aside>
-      <p>Login</p>
-      <input type="email" placeholder="Email"></br>
-      <input type="password" placeholder="Password">
-      <input type="submit" value="submit">
-    </aside>
+    <div id="block">
+      <section>
+        <aside>
+          <p>Login</p>
+          <input type="email" placeholder="Email"></br>
+          <input type="password" placeholder="Password">
+          <input type="submit" value="submit">
+        </aside>
+        <article>
+          <div id="textos">
+            <h2>Eye Of Tiger by Felinedra</h2>
+            <p>felinedra et ses tigre</p>
+            <h2>The Clown by Petrovic</h2>
+            <p>Russian performance world</p>
+            <h2>The Clown by Petrovic</h2>
+            <p>Russian performance world</p>
+            <h2>The Clown by Petrovic</h2>
+            <p>Russian performance world</p>
+          </div>        
+        </article>
+      </section>
+    </div>
     <footer>
-    <p>gre</p>
+      <p>gre</p>
     </footer>
   </body>
 </html>
@@ -74,9 +72,23 @@
       padding: 0px 10px 0px 10px;
     }
 
-  aside {
-      background: red;
-      border-radius: 10px;
-      padding: 10px
-      }
+  aside, article
+    {
+    display: inline-block;
+    text-align: justify;
+    margin-right: 20px;
+    }
+
+  aside
+    {
+    position: relative;
+    width: 235px;
+    background-color: #685959;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    float: right;
+    }
 </style>
