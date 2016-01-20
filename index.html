@@ -6,6 +6,8 @@
   </head>
   <body>
       <header>
+        <div id="bande">
+        <img src="C:\Users\Alexis pc\Pictures\cirque.jpg">
         <h1>WILD CIRCUS</h1>
           <ul>
             <li><a href="#1">Home</a></li>
@@ -14,6 +16,7 @@
             <li><a href="#4">News</a></li>
             <li><a href="#5">Contact</a></li>
           </ul>
+        </div>
       </header>
     <div id="block">
       <section>
@@ -25,14 +28,23 @@
         </aside>
         <article>
           <div id="textos">
-            <h2>Eye Of Tiger by Felinedra</h2>
-            <p>felinedra et ses tigre</p>
-            <h2>The Clown by Petrovic</h2>
-            <p>Russian performance world</p>
-            <h2>The Clown by Petrovic</h2>
-            <p>Russian performance world</p>
-            <h2>The Clown by Petrovic</h2>
-            <p>Russian performance world</p>
+              <h2>Show</h2>
+              <section>
+                <h3>Eye Of Tiger by Felinedra</h3>
+                <p>felinedra et ses tigre</p>
+              </section>
+              <section>
+                <h3>The Clown by Petrovic</h3>
+                <p>Russian performance world</p>
+              </section>
+              <section>
+                <h3>The Clown by Petrovic</h3>
+                <p>Russian performance world</p>
+              </section>
+              <section>
+                <h3>The Clown by Petrovic</h3>
+                <p>Russian performance world</p>
+              </section>
           </div>        
         </article>
       </section>
@@ -47,13 +59,20 @@
   header {
    background-color: white;
     }
+    h1 {
+    color: rgba(255,255,0,1);
+    padding: 10px;
+    line-height: 10px;
+    text-align: justify;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    margin: 0;
+    font-size: 68px
+    }
   html{
     background: #c0392b;
     font: 1.1em sans-serif;
-    }
-  h1 {
-    font-size: 80px;
-    font-family: helvetica;
     }
 
   a {
@@ -82,6 +101,8 @@
                 0 3px 5px rgba(0, 0, 0, .2),
                 0 5px 10px rgba(0, 0, 0, .2),
                 0 20px 20px rgba(0, 0, 0, .15);
+    position: relative;
+    top: 170px;
     }
   ul li a {
     display: block;
@@ -144,6 +165,8 @@
     display: inline-block;
     text-align: justify;
     margin-right: 20px;
+    position: relative;
+    top : 150px;
     }
 
   aside
@@ -157,5 +180,13 @@
     color: white;
     font-size: 15px;
     float: right;
+    }
+    img {
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1600px;
+    height: 291px;
     }
 </style>
